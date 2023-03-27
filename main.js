@@ -1,4 +1,13 @@
-function sum(a, b) {
-  return a + b;
+function capitalize(a) {
+  return a;
 }
-module.exports = sum;
+
+function reverse(a) {
+  return a;
+}
+
+const calculator = {
+  
+}
+
+export { capitalize, reverse, calculator }
