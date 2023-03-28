@@ -1,7 +1,7 @@
-function reverse(a) {
+function reverseString(a) {
   const str = a.split('');
   str.reverse();
   return str.join('');
 }
 
-module.exports = reverse;
+module.exports = reverseString;
