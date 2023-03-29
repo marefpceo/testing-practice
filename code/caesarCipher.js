@@ -5,7 +5,6 @@ function caesarCipher(string, key) {
   let ciphertext;
 
   for (let i = 0; i < plaintext.length; i++) {
-    // let code;
     if (re.test(plaintext.charAt(i))) {
       ciphertext += String.fromCharCode(((plaintext.charCodeAt(i) - 97) + keyShift)%26 + 97);
     } else {
